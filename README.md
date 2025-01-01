@@ -159,3 +159,9 @@ The build maybe failed.
 7. Rebuild
 
 **Finish**
+
+# References
+
+https://sippo.work/blog/20231105-deploy-zola-with-cloudflare-pages/
+
+https://zenn.dev/com4dc/scraps/c6c0f5fb87a1f9
