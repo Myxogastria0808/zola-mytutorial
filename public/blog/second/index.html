@@ -3,12 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% block rss %}<link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">{% endblock %}
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://zola-mytutorial.yukiosada.work/atom.xml">
     <title>My Blog</title>
   </head>
   <body>
     <section class="section">
-      <div class="container">{% block content %} {% endblock %}</div>
+      <div class="container">
+<h1 class="title">My second post</h1>
+<p class="subtitle"><strong>2019-11-28</strong></p>
+<p>This is my second blog post.</p>
+
+
+<p><a href="/blog/">Back</a></p>
+
+</div>
     </section>
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';

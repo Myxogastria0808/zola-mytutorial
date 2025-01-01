@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://zola-mytutorial.yukiosada.work/sitemap.xml
