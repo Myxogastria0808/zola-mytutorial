@@ -1,11 +1,22 @@
 {
   inputs = {
-    github.url = "github:Myxogastria0808/zola-mytutorial/main";
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
   };
-  outputs = inputs: {
-    inputs.nixpkgs.mkShell = {
-      packages = with inputs.pkgs; [ zola ];
-    };
-  };
+
+  outputs =
+    inputs:
+    inputs.flake-utils.lib.eachDefaultSystem (
+      system:
+      let
+        pkgs = inputs.nixpkgs.legacyPackages.${system};
+      in
+      {
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            zola
+          ];
+        };
+      }
+    );
 }
