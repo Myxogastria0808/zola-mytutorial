@@ -162,6 +162,8 @@ The build maybe failed.
 
 # References
 
+https://www.getzola.org/documentation/getting-started/overview/#content
+
 https://sippo.work/blog/20231105-deploy-zola-with-cloudflare-pages/
 
 https://zenn.dev/com4dc/scraps/c6c0f5fb87a1f9
