@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>zola-mytutorial</title>
+      <link>https://zola-mytutorial.yukiosada.work</link>
+      <description>This is a zola mytutorial</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://zola-mytutorial.yukiosada.work/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>My first blog post</title>
+          <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+          <author>Myxogastria0808</author>
+          <link>https://zola-mytutorial.yukiosada.work/blog/first/</link>
+          <guid>https://zola-mytutorial.yukiosada.work/blog/first/</guid>
+          <description xml:base="https://zola-mytutorial.yukiosada.work/blog/first/">&lt;p&gt;This is my first blog post.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;py&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-py &quot;&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;numpy &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span&gt;np
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;array=[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;4&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;a=np.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;array&lt;&#x2F;span&gt;&lt;span&gt;(array)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre class=&quot;mermaid&quot;&gt;
+  graph TD
+A[Enter Chart Definition] --&amp;gt; B(Preview)
+B --&amp;gt; C{decide}
+C --&amp;gt; D[Keep]
+C --&amp;gt; E[Edit Definition]
+E --&amp;gt; B
+D --&amp;gt; F[Save Image and Code]
+F --&amp;gt; B
+&lt;&#x2F;pre&gt;
+</description>
+      </item>
+      <item>
+          <title>My second post</title>
+          <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+          <author>Myxogastria0808</author>
+          <link>https://zola-mytutorial.yukiosada.work/blog/second/</link>
+          <guid>https://zola-mytutorial.yukiosada.work/blog/second/</guid>
+          <description xml:base="https://zola-mytutorial.yukiosada.work/blog/second/">&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
