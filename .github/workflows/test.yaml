@@ -18,6 +18,4 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixpkgs-unstable
       - name: devShell
-        run: nix develop
-      - name: Check
-        run: zola check
+        run: nix develop --command bash -c "zola check"
